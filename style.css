@@ -3,3 +3,15 @@ body{
     background-color: cadetblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px rgb(255, 179, 0), 10px 10px rgb(251, 255, 0), 15px 15px rgb(0, 255, 4);
+    color: rgb(221, 24, 24);
+    font-size: x-large;
+}
+#camera{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
