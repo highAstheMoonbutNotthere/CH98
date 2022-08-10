@@ -10,8 +10,8 @@ h3{
     color: rgb(221, 24, 24);
     font-size: x-large;
 }
-#camera{
-    width: 500px;
-    height: 500px;
+#camera,#result{
+    width: 400px;
+    height: 300px;
     border: 1px solid black;
 }

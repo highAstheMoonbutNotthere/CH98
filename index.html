@@ -6,12 +6,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"
         integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -19,14 +17,18 @@
         <h2>Collage App</h2>
         <hr>
         <h3>As soon as the pop-up appears, please click allow.</h3>
-        <h3>Say selfie to take a selfie, the pictures will be displayed below.</h3>
+        <h3>Say "take my selfie" to take a selfie, the pictures will be displayed below.</h3>
         <button class="btn btn-info" onclick="save()">Start!</button>
         <h2>Press start!</h2>
         <h4>Your webcam</h4>
         <div id="camera"></div>
         <h4>Your selfie will be displayed here</h4>
-        <div id="result"></div>
+        <div id="result1"></div>
+        <div id="result2"></div>
+        <div id="result3"></div>
     </center>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
